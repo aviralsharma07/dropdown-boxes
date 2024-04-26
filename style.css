@@ -29,16 +29,19 @@ body {
 .container {
   margin-top: 10px;
   border: 1px solid white;
+  padding: 10px;
   width: 100%;
-  min-height: 90vh;
+  height: 90vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  align-content: flex-start;
 }
 
 .box {
-  width: 70px;
-  height: 70px;
+  width: 90px;
+  height: 90px;
   background-color: lightblue;
-  margin: 5px;
-  float: left;
   display: flex;
   align-items: center;
   justify-content: center;
